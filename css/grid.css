@@ -86,24 +86,24 @@ html {
     padding-right: 15px;
 }
   
-  #hide {
+#hide {
     display: none;
-  }
+}
 
 /* 2. Mobile Library Grid Styles
 =============================*/
   
-  .col-span-1 {grid-column: span 1 / span 1;}
-  .col-span-2 {grid-column: span 2 / span 2;}
-  .col-span-3 {grid-column: span 3 / span 3;}
-  .col-span-4 {grid-column: span 4 / span 4;}
-  .col-span-full {grid-column: 1 / -1;}
+.col-span-1 {grid-column: span 1 / span 1;}
+.col-span-2 {grid-column: span 2 / span 2;}
+.col-span-3 {grid-column: span 3 / span 3;}
+.col-span-4 {grid-column: span 4 / span 4;}
+.col-span-full {grid-column: 1 / -1;}
   
   
 /* 3. Tablet Library Grid Styles
 =============================*/
   
-  @media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
   
     .grid-con {
         grid-template-columns: repeat(12, minmax(0, 1fr));
@@ -125,22 +125,22 @@ html {
     .m-col-span-10 {grid-column: span 10 / span 10;}
     .m-col-span-11 {grid-column: span 11 / span 11;}
     .m-col-span-12 {grid-column: span 12 / span 12;}
-  }
+}
   
 /* 4. Desktop Library Grid Styles
 =============================*/
   
-  @media screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
   
     .grid-con {
-      max-width: 1919px;
-      column-gap: 30px;
-      padding-left: 15px;
-      padding-right: 15px;
+        max-width: 1919px;
+        column-gap: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
   
     #hide {
-      display: block;
+        display: block;
     }
   
     .l-col-span-1 {grid-column: span 1 / span 1;}
@@ -156,4 +156,4 @@ html {
     .l-col-span-11 {grid-column: span 11 / span 11;}
     .l-col-span-12 {grid-column: span 12 / span 12;}
   
-  }
+}
